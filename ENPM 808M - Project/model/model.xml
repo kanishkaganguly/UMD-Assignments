@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="nightstalker" on="11/22/15||15:11:54" using="SimMechanics Link Version 4.6" from="Autodesk Inventor 2016 (Build 200138000, 138)"/>
+<ModelUnits mass="lbmass" length="inch"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="Assembly1" uid="Assembly1_9DA80767-4F43-CE07-476C-9FA3ADBD463E" version="">
+< name="" type=""/>
+<InstanceTree>
+<Instance name="digit1:1" uid="digit1:1" entityUid="digit1.ipt_B811B4D9-4EF2-99B3-378C-C59AD5236023">
+<Transform>
+<Rotation>0.99862953475457206 -0.0018264985323058413 -0.052304074592461822 -0.052296845356805163 0.003803775532619044 -0.99862433940767659 0.0020229388494449087 0.99999109755777904 0.0037030424791613713</Rotation>
+<Translation>2.0003266647752405 2.6386002944290352 7.3177079621412444</Translation>
+</Transform>
+</Instance>
+<Instance name="digit2:1" uid="digit2:1" entityUid="digit2.ipt_AFEBE654-4C20-ED4B-3030-DB902F71A955">
+<Transform>
+<Rotation>0.81537336514087189 1.7203520173664833e-013 0.57893546740448554 -0.57893546740448576 2.4196950272380331e-013 0.81537336514087166 1.8819420566356385e-016 -0.99999999999999944 2.9689276762480242e-013</Rotation>
+<Translation>1.9884540463642768 2.6420166200081936 7.3520069268398514</Translation>
+</Transform>
+</Instance>
+<Instance name="digit3:1" uid="digit3:1" entityUid="digit3.ipt_05F55235-4DBE-6FAE-EF90-8EBCF30EBD6A">
+<Transform>
+<Rotation>0.99999999999999967 -4.3532641572408627e-016 9.2839789073975298e-016 0 2.9632893361331014e-013 0.999999999999999 1.752962478197639e-016 -0.99999999999999856 2.9732119544156888e-013</Rotation>
+<Translation>1.9970087555860392 2.6433324439818091 5.8861173744679842</Translation>
+</Transform>
+</Instance>
+<Instance name="palm:1" uid="palm:1" entityUid="palm.ipt_8F0B935C-413B-22F4-C4D4-159D364E979B">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.4664563080269741 2.1314306793223681 4.4999999999999964</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="digit1.ipt" uid="digit1.ipt_B811B4D9-4EF2-99B3-378C-C59AD5236023" version="{30F26296-E625-1B03-6662-C0BCBE91AEEC}">
+<ModelUnits mass="gram" length="centimeter"/>
+<PartFile name="digit1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0012949107368185708</Mass>
+<CenterOfMass>4.5091965721027393e-011 0.82495097434030618 -1.8226574635779844e-011</CenterOfMass>
+<Inertia>0.00037441782249608777 0.00015974143264780376 0.00037441784002409351 6.7276153724473332e-015 1.7838711618967567e-012 5.8424699395955365e-015</Inertia>
+</MassProperties>
+<GeometryFile name="digit1_ipt_dd267b09.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="digit2.ipt" uid="digit2.ipt_AFEBE654-4C20-ED4B-3030-DB902F71A955" version="{F64CCB65-82F1-E075-B433-5B6370BBA576}">
+<ModelUnits mass="gram" length="centimeter"/>
+<PartFile name="digit2.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0011545353001942984</Mass>
+<CenterOfMass>5.2283991677977072e-011 0.73499999999999999 0</CenterOfMass>
+<Inertia>0.00028006138640564946 0.00014431690314484447 0.0002800614051041719 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="digit2_ipt_4cb012f3.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="digit3.ipt" uid="digit3.ipt_05F55235-4DBE-6FAE-EF90-8EBCF30EBD6A" version="{11644408-7A5D-C63A-8E3E-68C3C050369C}">
+<ModelUnits mass="gram" length="centimeter"/>
+<PartFile name="digit3.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0010995574287564747</Mass>
+<CenterOfMass>5.2283977253692805e-011 0.69999999999999996 0</CenterOfMass>
+<Inertia>0.00024831670595704423 0.00013744466966175668 0.00024831672376516076 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="digit3_ipt_88717b59.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="palm.ipt" uid="palm.ipt_8F0B935C-413B-22F4-C4D4-159D364E979B" version="{A736942D-700F-8C71-1B0C-DD75CEEF2C09}">
+<ModelUnits mass="gram" length="centimeter"/>
+<PartFile name="palm.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0076</Mass>
+<CenterOfMass>1.9000000000000001 0.5 -1</CenterOfMass>
+<Inertia>0.0031666666666666662 0.011678666666666665 0.0097786666666666629 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="palm_ipt_dce324d3.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>

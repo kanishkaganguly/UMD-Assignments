@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="nightstalker" on="09/13/15||17:39:06" using="SimMechanics Link Version 4.6" from="Autodesk Inventor 2016 (Build 200138000, 138)"/>
+<ModelUnits mass="lbmass" length="inch"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="SpringBlock.iam" uid="SpringBlock.iam_CB5683F2-4EE5-F148-A6F6-A9A37DA1C462" version="{998F7D50-F502-5ED5-ABCF-33CC49C1301D}">
+<AssemblyFile name="SpringBlock.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="Mass:1" uid="Mass:1" entityUid="Mass.ipt_3D8BEAD7-4A66-7398-1C99-41BE6DF1AA07">
+<Transform>
+<Rotation>9.3880389549931435e-013 -6.1992579789628118e-016 0.99999999999997924 0.99999999999997802 2.9721926165858404e-013 -9.3839923400008501e-013 -2.9642607812796469e-013 0.99999999999999067 -1.6551247568331511e-016</Rotation>
+<Translation>-93.151629029465823 -34.766293738989489 -41.28447877888091</Translation>
+</Transform>
+</Instance>
+<Instance name="Spring:1" uid="Spring:1" entityUid="Spring.ipt_388C6997-4696-895D-C958-C884A62D89D9">
+<Transform>
+<Rotation>9.3880389549931395e-013 5.5224583925491142e-016 -0.99999999999997979 0.9999999999999778 -2.9721926165858409e-013 9.3778861133653896e-013 -2.963983720148486e-013 -0.99999999999999112 1.6554306581406633e-016</Rotation>
+<Translation>-68.151629029442944 -9.7662937389837783 58.715521221110784</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Mass.ipt" uid="Mass.ipt_3D8BEAD7-4A66-7398-1C99-41BE6DF1AA07" version="{D20B522C-E500-C130-3017-1CD82F3241B7}">
+<PartFile name="Mass.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>125</Mass>
+<CenterOfMass>25 25 25</CenterOfMass>
+<Inertia>52083.333333333314 52083.333333333314 52083.333333333314 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Mass_ipt_8fc4de26.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Spring.ipt" uid="Spring.ipt_388C6997-4696-895D-C958-C884A62D89D9" version="{B41AF0F0-875F-147B-E7FA-8B862327EDF4}">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="Spring.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>19.406858194752115</Mass>
+<CenterOfMass>-0.0085964517314161288 25.000380263614954 -0.017869161248853904</CenterOfMass>
+<Inertia>8856.2431466564121 9916.0002783657255 8825.7616781630604 172.62496285965605 -19.132069358300949 -358.28098395873315</Inertia>
+</MassProperties>
+<GeometryFile name="Spring_ipt_7e8e097.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>

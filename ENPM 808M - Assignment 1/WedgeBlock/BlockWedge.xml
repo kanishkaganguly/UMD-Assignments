@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="nightstalker" on="09/14/15||23:28:32" using="SimMechanics Link Version 4.6" from="Autodesk Inventor 2016 (Build 200138000, 138)"/>
+<ModelUnits mass="kilogram" length="centimeter"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="BlockWedge.iam" uid="BlockWedge.iam_F1209B57-4D62-D1E2-C824-94A55722EAEC" version="{5770885D-8190-321F-7FF2-6B1FCCC136A1}">
+<AssemblyFile name="BlockWedge.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="Block:1" uid="Block:1" entityUid="Block.ipt_FB15F2F9-45A0-F160-EE73-AE9463816092">
+<Transform>
+<Rotation>0.0014656066893607381 -0.99999570398483717 0.0025385052498804617 0.49999785199237734 0.0029312133787167648 0.86602168332606999 -0.86602540378433601 -4.1153743372320865e-016 0.4999999999999602</Rotation>
+<Translation>-87.789156088119583 14.267948102546436 24.703555856811981</Translation>
+</Transform>
+</Instance>
+<Instance name="Wedge:1" uid="Wedge:1" entityUid="Wedge.ipt_FDA58A7E-4F43-220C-BB49-CCB578ACAD66">
+<Transform>
+<Rotation>0.0029312133785639703 -0.99999570398481463 2.9732749350698657e-016 0.99999570398481008 0.0029312133785591495 -9.1104283756165211e-015 -3.0896919807427419e-016 0 1.000000000000006</Rotation>
+<Translation>-80.577361008120036 -18.412022624642418 -1.5384382118510883e-015</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Mate:1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Block:1</Uid>
+</InstancePath>
+<Position>5.000000000000556 0 5.00000000000054</Position>
+<Axis>1.0000000000001095 0 -7.2164496600635175e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wedge:1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-0.50000000000000522 2.4765918064148464e-016 0.86602540378443349</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:2">
+<ConstraintGeometry geomType="plane">
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wedge:1</Uid>
+</InstancePath>
+<Position>43.301270189223089 1.4210854715202004e-014 0</Position>
+<Axis>-9.4184869048257733e-015 -2.8612676438187667e-016 -0.999999999999994</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Block.ipt" uid="Block.ipt_FB15F2F9-45A0-F160-EE73-AE9463816092" version="{881E638E-7ED8-B3EB-FEA3-104C19FCFB57}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="Block.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.12500000000000003</Mass>
+<CenterOfMass>2.5000000000000013 2.4999999999999996 2.5000000000000004</CenterOfMass>
+<Inertia>0.52083333333333304 0.52083333333333326 0.52083333333333304 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Block_ipt_56cc4f20.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Wedge.ipt" uid="Wedge.ipt_FDA58A7E-4F43-220C-BB49-CCB578ACAD66" version="{39009D41-F538-0DF7-C853-90B7954DE0B4}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="Wedge.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>10.82531754730549</Mass>
+<CenterOfMass>28.867513459481295 10 8.3333333333333375</CenterOfMass>
+<Inertia>736.72299974717987 1503.5163260146528 1488.4811627545059 0 -325.52083333333439 4.6566128730773927e-013</Inertia>
+</MassProperties>
+<GeometryFile name="Wedge_ipt_983a54ff.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>
